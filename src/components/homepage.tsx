@@ -47,8 +47,8 @@ export default function HomePage() {
             <li key={`${job.company}-${job.date}`}>
               <Link href={job.href} {...externalLinkProps(job.href)}>
                 {job.company}
-              </Link>{" "}
-              — {job.title} ({job.date})
+              </Link>
+              {job.title ? ` — ${job.title}` : ""} ({job.date})
               <ul>
                 <li>
                   {job.location}. {job.description}

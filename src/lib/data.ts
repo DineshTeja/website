@@ -66,13 +66,13 @@ export const tinyTools: TinyTool[] = [
 export const experiencesData: Experience[] = [
   {
     title: "",
-    company: "",
+    company: "Beautiful Machines",
     location: "San Francisco, CA",
     description: "",
     icon: React.createElement(DiCode),
     date: "2026",
     src: "",
-    href: "",
+    href: "https://www.beautifulmachines.ai/",
     tags: ["Go", "Next.js", "Livekit", "Python"],
   },
   {
